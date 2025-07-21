@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+/*================ --Navbar-- =====================*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #111;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.icon-btn:hover {
+  color: red;
+}
+
+.hero {
+  height: 100vh;
+  background: url("images/hero-bg.jpg") no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hero-title {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.play-icon {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.15);
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.watch-btn {
+  background-color: red;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.watch-btn:hover {
+  background-color: #e60000;
+}
+
+/*================ --Footer-- =====================*/
+.Container {
+  display: grid;
+  grid-template-areas:
+    ". . . . ."
+    ". . . . ."
+    "BigText BigText . . ."
+    "TextContent TextContent . . Button1"
+    ". . . . ."
+    ". . . . .";
+  border: 1px solid rgb(49, 47, 47);
+  padding: 30px;
+  background-image: url("../Images/BackgroundImage.jpg");
+  width: 1596px;
+  height: 313px;
+  border-radius: 12px;
+  margin: 50px;
+  gap: 10px;
+}
+
+.BigText {
+  grid-area: BigText;
+  color: white;
+  font-size: xx-large;
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+
+.TextContent {
+  grid-area: TextContent;
+  color: #999999;
+  padding: 10px;
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+}
+
+.Button1 {
+  grid-area: Button1;
+  background-color: #e50000;
+  color: white;
+  width: 150px;
+  border-radius: 8px;
+  height: 50px;
+}
+.Footer {
+  border: 1px solid black;
+  background-color: #0f0f0f;
+  height: 505px;
+  margin-top: 200px;
+}
+.Button2 {
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: xx-large;
+  border-radius: 10px;
+}
+.footer {
+  background-color: #0f0f0f;
+  padding: 40px 20px;
+  height: 400px;
+  color: white;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+.footer-section ul li a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 14px;
+}
+.footer-section ul li a:hover {
+  color: white;
+}
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 15px;
+}
+.footer-bottom {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #999999;
+}
+.footer-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #999999;
+}
+.footer-links a:hover {
+  color: white;
+}
