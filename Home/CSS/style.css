@@ -121,6 +121,120 @@ body {
   background-color: #e60000;
 }
 
+/*================ --FAQ section start-- =====================*/
+.FAQ-Contener {
+      width: 80%;
+      padding: 20px;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .head {
+      display: flex;
+      margin: 20px 0;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      
+    }
+
+    .FAQ-Title h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    .FAQ-Title p {
+      color: #999999;
+      max-width: 1,320px;
+      font-size: 18px;
+      line-height: 1.5;
+      
+    }
+
+    .TBtn .Qbtn {
+      background-color: #E50000;
+      color: #ffffff;
+      border: none;
+      padding: 16px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .FAQ-Content {
+      padding: 20px 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px 60px;
+    }
+
+    .FAQ-Item {
+      border-bottom: 1px solid transparent;
+      border-image: linear-gradient(to right, transparent, #E50000, transparent);
+      border-image-slice: 1;
+     
+      padding-bottom: 10px;
+    }
+
+    .FAQ-Item .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .FAQ-Item .text {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .FAQ-Item .num {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fffcfc;
+      background-color: #1F1F1F;
+      padding: 12px 16px;
+      border-radius: 10px;
+    }
+
+    .FAQ-Item .q {
+      font-size: 22px;
+    }
+
+    .FAQ-Item .btn {
+      background-color: transparent;
+      color: #ffffff;
+      border: none;
+      font-size: 32px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .FAQ-Item .a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease, opacity 0.5s ease;
+      opacity: 0;
+      color: #ccc;
+      font-size: 18px;
+      margin-top: 10px;
+      width: 80%;
+      position: relative;
+      text-wrap: balance;
+      left: 13%;
+    }
+
+    .FAQ-Item.active .a {
+      max-height: 200px;
+      opacity: 1;
+    }
+
+  
+/*================ --FAQ section End- =====================*/
+
 /*================ --Footer-- =====================*/
 .Container {
   display: grid;
