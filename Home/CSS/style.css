@@ -8,7 +8,6 @@ body {
   margin: 0;
 }
 /*================ --Navbar-- =====================*/
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -60,6 +59,66 @@ body {
 
 .icon-btn:hover {
   color: red;
+}
+/*================ --Hero section-- =====================*/
+
+.hero {
+  height: 100vh;
+  background: url("images/hero-bg.jpg") no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.hero-title {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.play-icon {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.15);
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.watch-btn {
+  background-color: red;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.watch-btn:hover {
+  background-color: #e60000;
 }
 
 /*================ --Footer-- =====================*/
