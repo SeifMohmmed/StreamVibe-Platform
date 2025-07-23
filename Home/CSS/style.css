@@ -7,8 +7,7 @@
 body {
   font-family: "Manrope", sans-serif;
   background-color: #141414;
-  display: flex;
-  flex-direction: column;
+
 }
 /*================ --Navbar-- =====================*/
 .navbar {
@@ -129,7 +128,6 @@ body {
   margin: 20px 0;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .FAQ-Title h1 {
@@ -150,6 +148,7 @@ body {
   border: none;
   padding: 16px 24px;
   border-radius: 8px;
+  width:175px;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
