@@ -154,28 +154,30 @@ body{
         gap: 20px;
         align-items: center;
         transition: all 0.6s ease-in-out;
-        
-        i{
+          }
+            i{
             border-radius: 10px;
             font-size: 12px;
             color: white;
             cursor: pointer;
             background-color: black;
             padding: 20px;
+        transition: all 0.6s ease-in-out ;
+
 
         }
     }
     .button:hover{
-        background-color:transparent;
+        background-color:white;
         color: rgb(248, 1, 1);
         transition:  0.6s ;
     }
         .icons i:hover{
-        background-color:transparent;
-        color: rgb(95, 9, 71);
-        font-size: 20px;
+        background-color:white;
+        color: red;
         transition:  0.6s ;
     }
+        
 
 }
 .description{
