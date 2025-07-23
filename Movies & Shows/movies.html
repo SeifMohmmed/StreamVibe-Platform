@@ -1,12 +1,721 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movies & Shows</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/assets/Images/Vector.svg" alt="Logo" />
+        StreamVibe
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="../Movies & Shows/movies.html">Movies & Shows</a></li>
+        <li><a href="../Support/Support.html">Support</a></li>
+        <li><a href="../Subscription/Subscription.html">Subscriptions</a></li>
+      </ul>
+      <div class="icons">
+        <button class="icon-btn"><i class="fas fa-search"></i></button>
+        <button class="icon-btn"><i class="fas fa-bell"></i></button>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Main Section -->
+    <div class="Main">
+      <div class="content">
+        <h2>Avengers : Endgame</h2>
+        <p>
+          With the help of remaining allies, the Avengers must assemble once
+          more in order to undo Thanos's actions and undo the chaos to the
+          universe, no matter what consequences may be in store, and no matter
+          who they face... Avenge the fallen.
+        </p>
+      </div>
+      <div class="btn">
+        <button class="button">
+          <i class="fa-solid fa-play"></i>
+          <span>Play Now</span>
+        </button>
+        <div class="icons">
+          <i class="fa-solid fa-plus" title="Add to My List"></i>
+          <i class="fa-solid fa-thumbs-up" title="Like"></i>
+          <i class="fa-solid fa-volume-high" title="Toggle Sound"></i>
+        </div>
+      </div>
+    </div>
+    <!-- End Main Section -->
+
+    <!-- MovieSection -->
+    <fieldset>
+      <legend class="LegendText">Movies</legend>
+      <div class="headerBoxs">
+        <h2 class="mg-0">Our Genres</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Genres/Action.png" alt="Action" />
+          </div>
+          <div class="Endboxs">
+            <span>Action</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Genres/Adventure.png" alt="Adventure" />
+          </div>
+          <div class="Endboxs">
+            <span>Adventure</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Genres/Comedy.png" alt="Comedy" />
+          </div>
+          <div class="Endboxs">
+            <span>Comedy</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Genres/Drama.png" alt="Drama" />
+          </div>
+          <div class="Endboxs">
+            <span>Drama</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="/assets/Genres/Horror.png" alt="Horror" />
+          </div>
+          <div class="Endboxs">
+            <span>Horrer</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+      </div>
+      <div class="headerBoxs">
+        <h2>Popular Top 10 In Genres</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Popular/Action.png" alt="Action" />
+          </div>
+          <div class="TOP10">Top 10 In</div>
+          <div class="Endboxs">
+            <span>Action</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Popular/Adventure.png" alt="Adventure" />
+          </div>
+          <div class="TOP10">Top 10 In</div>
+          <div class="Endboxs">
+            <span>Adventure</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Popular/Comedy.png" alt="Comedy" />
+          </div>
+          <div class="TOP10">Top 10 In</div>
+          <div class="Endboxs">
+            <span>Comedy</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Popular/Drama.png" alt="Drama" />
+          </div>
+          <div class="TOP10">Top 10 In</div>
+          <div class="Endboxs">
+            <span>Drama</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+      </div>
+      <div class="headerBoxs">
+        <h2>Trending Now</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Trending/Morbius.png" alt="Morbius" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 1h 30min</div>
+            <div class="Views"><i>&#128065;2k</i></div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Trending/Bhediya.png" alt="Bhediya" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 1h 57min</div>
+            <div class="Views"><i>&#128065;1.5k</i></div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Trending/Brahmastra.png" alt="Brahmastra" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 2h 10min</div>
+            <div class="Views"><i>&#128065;1.8k</i></div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Trending/Pathaan.png" alt="Pathaan" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 2h 20min</div>
+            <div class="Views"><i>&#128065;3k</i></div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Trending/Ant-Man.png" alt="Ant-Man" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 1h 42min</div>
+            <div class="Views"><i>&#128065;5k</i></div>
+          </div>
+        </div>
+      </div>
+      <div class="headerBoxs">
+        <h2>New Releases</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/New_Release/Adipurush.png" alt="Adipurush" />
+          </div>
+          <div class="Endboxs">
+            <div class="datefilm">Released at 14 April 2023</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/New_Release/Unknown.png" alt="Unknown" />
+          </div>
+          <div class="Endboxs">
+            <div class="datefilm">Released at 22 April 2023</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/New_Release/SinCity.png" alt="SinCity" />
+          </div>
+          <div class="Endboxs">
+            <div class="datefilm">Released at 13 April 2023</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/New_Release/TomorrowWar.png" alt="TomorrowWar" />
+          </div>
+          <div class="Endboxs">
+            <div class="datefilm">Released at 19 April 2023</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/New_Release/Misfire.png" alt="Misfire" />
+          </div>
+          <div class="Endboxs">
+            <div class="datefilm">Released at 20 April 2025</div>
+          </div>
+        </div>
+      </div>
+      <div class="headerBoxs">
+        <h2>Must-Watch Movies</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs1">
+          <div class="boximages1">
+            <img src="assets/Must_Watch/Kantara.png" alt="Kantara" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 1h 57min</div>
+            <div class="stars">★★★★★<span>20k</span></div>
+          </div>
+        </div>
+        <div class="boxs1">
+          <div class="boximages1">
+            <img src="assets/Must_Watch/Pushpa.png" alt="Pushpa" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 1h 30min</div>
+            <div class="stars">★★★★★<span>20k</span></div>
+          </div>
+        </div>
+        <div class="boxs1">
+          <div class="boximages1">
+            <img
+              src="assets/Must_Watch/BladeRunner2049.png"
+              alt="BladeRunner2049"
+            />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 1h 42min</div>
+            <div class="stars">★★★★★<span>20k</span></div>
+          </div>
+        </div>
+        <div class="boxs1">
+          <div class="boximages1">
+            <img src="assets/Must_Watch/Adipurush.png" alt="Adipurush" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 2h 10min</div>
+            <div class="stars">★★★★★<span>20k</span></div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <!-- End Movie Section -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Start Shows Section -->
+    <fieldset>
+      <legend class="LegendText">Shows</legend>
+      <div class="headerBoxs">
+        <h2 class="mg-0">Our Genres</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Genres/Action.png" alt="Action" />
+          </div>
+          <div class="Endboxs">
+            <span>Action</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Genres/Adventure.png" alt="Adventure" />
+          </div>
+          <div class="Endboxs">
+            <span>Adventure</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Genres/Comedy.png" alt="Comedy" />
+          </div>
+          <div class="Endboxs">
+            <span>Comedy</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Genres/Drama.png" alt="Drama" />
+          </div>
+          <div class="Endboxs">
+            <span>Drama</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="/assets/Genres/Horror.png" alt="Horror" />
+          </div>
+          <div class="Endboxs">
+            <span>Horrer</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+      </div>
+      <div class="headerBoxs">
+        <h2>Popular Top 10 In Genres</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Popular/Action.png" alt="Action" />
+          </div>
+          <div class="TOP10">Top 10 In</div>
+          <div class="Endboxs">
+            <span>Action</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Popular/Adventure.png" alt="Adventure" />
+          </div>
+          <div class="TOP10">Top 10 In</div>
+          <div class="Endboxs">
+            <span>Adventure</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Popular/Comedy.png" alt="Comedy" />
+          </div>
+          <div class="TOP10">Top 10 In</div>
+          <div class="Endboxs">
+            <span>Comedy</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages">
+            <img src="assets/Popular/Drama.png" alt="Drama" />
+          </div>
+          <div class="TOP10">Top 10 In</div>
+          <div class="Endboxs">
+            <span>Drama</span>
+            <i class="arrowicon">&rarr;</i>
+          </div>
+        </div>
+      </div>
+      <div class="headerBoxs">
+        <h2>Trending Now</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Shows/StrangerThing.png" alt="StrangerThing" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 8h 20min</div>
+            <div class="Views"><i class="fas fa-folder-open"></i> 4 Season</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Shows/MoneyHiest.png" alt="MoneyHiest" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 12h 23min</div>
+            <div class="Views"><i class="fas fa-folder-open"></i> 5 Season</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Shows/Lucifar.png" alt="Lucifar" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 14h 30min</div>
+            <div class="Views"><i class="fas fa-folder-open"></i> 3 Season</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Shows/GrayMan.png" alt="GrayMan" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 7h 40min</div>
+            <div class="Views"><i class="fas fa-folder-open"></i> 2 Season</div>
+          </div>
+        </div>
+      </div>
+      <div class="headerBoxs">
+        <h2>New Released Shows</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Shows/HighTown.png" alt="HighTown" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 12h 23min</div>
+            <div class="Views"><i class="fas fa-folder-open"></i> 5 Season</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Shows/Mirzar.png" alt="Mirzar" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 7h 20min</div>
+            <div class="Views"><i class="fas fa-folder-open"></i> 2 Season</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Shows/IntoShadow.png" alt="IntoShadow" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 8h 20min</div>
+            <div class="Views"><i class="fas fa-folder-open"></i> 4 Season</div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="boximages1">
+            <img src="assets/Shows/PeakyBlinder.png" alt="PeakyBlinder" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 10h 30min</div>
+            <div class="Views"><i class="fas fa-folder-open"></i> 3 Season</div>
+          </div>
+        </div>
+      </div>
+      <div class="headerBoxs">
+        <h2>Must-Watch Shows</h2>
+        <div class="buttonsheaderBoxs">
+          <button>&larr;</button>
+          <div class="EmptyDivs">
+            <div></div>
+            <div class="divReds"></div>
+            <div></div>
+          </div>
+          <button>&rarr;</button>
+        </div>
+      </div>
+      <div class="showsContainer">
+        <div class="boxs1">
+          <div class="boximages1">
+            <img src="assets/Shows/Durgan.png" alt="Durgan" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 7h 40min</div>
+            <div class="stars">★★★★★<span>20k</span></div>
+          </div>
+        </div>
+        <div class="boxs1">
+          <div class="boximages1">
+            <img src="assets/Shows/money 2.png" alt="money" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 12h 23min</div>
+            <div class="stars">★★★★★<span>28k</span></div>
+          </div>
+        </div>
+        <div class="boxs1">
+          <div class="boximages1">
+            <img src="assets/Shows/Mai.png" alt="Mai" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 10h 30min</div>
+            <div class="stars">★★★★★<span>2k</span></div>
+          </div>
+        </div>
+        <div class="boxs1">
+          <div class="boximages1">
+            <img src="assets/Shows/StrangerThing.png" alt="StrangerThing" />
+          </div>
+          <div class="Endboxs">
+            <div class="Hours"><i class="fa-solid fa-clock"></i> 8h 20min</div>
+            <div class="stars">★★★★★<span>32k</span></div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <!-- End Shows Section -->
+
+    <!-- Start Footer -->
+    <div class="trial-box">
+      <div class="content">
+        <div class="text">
+          <h2>Start your free trial today!</h2>
+          <p>
+            This is a clear and concise call to action that encourages users to
+            sign up for a free trial of StreamVibe.
+          </p>
+        </div>
+        <button class="sButton">Start a Free Trial</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>Home</h4>
+          <ul>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Devices</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Movies</h4>
+          <ul>
+            <li><a href="#">Genres</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">New Release</a></li>
+            <li><a href="#">Popular</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Shows</h4>
+          <ul>
+            <li><a href="#">Genres</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">New Release</a></li>
+            <li><a href="#">Popular</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Subscription</h4>
+          <ul>
+            <li><a href="#">Plans</a></li>
+            <li><a href="#">Features</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section social">
+          <h4>Connect With Us</h4>
+          <div class="social-icons">
+            <a href="#"
+              ><img
+                src="assets/Images/icons/social-facebook-circular.svg"
+                alt="Facebook"
+                style="width: 40px"
+            /></a>
+            <a href="#"
+              ><img
+                src="assets/Images/icons/icons8-x.svg"
+                alt="Twitter"
+                style="width: 40px"
+            /></a>
+            <a href="#"
+              ><img
+                src="assets/Images/icons/linkedin-circle.svg"
+                alt="LinkedIn"
+                style="width: 40px"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2023 streamwib, All Rights Reserved</p>
+        <div class="footer-links">
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- End Footer -->
+    <!--  Link external JS -->
+    <script src="JS/script.js"></script>
+  </body>
 </html>
