@@ -62,7 +62,7 @@
 
 
 /*================ --Navbar-- =====================*/
-
+/* === Navbar === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -71,6 +71,8 @@
   background-color: #111;
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
   z-index: 100;
 }
 
