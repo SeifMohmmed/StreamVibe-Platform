@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.7.0/css/flag-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.7.0/css/flag-icons.min.css"
+    />
     <title>Support</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Start Navbar -->
     <nav class="navbar">
       <div class="logo">
@@ -19,10 +22,10 @@
         StreamVibe
       </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Movies & Shows</a></li>
+        <li><a href="../Home/index.html">Home</a></li>
+        <li><a href="../MoviesAndShows/movies.html">Movies & Shows</a></li>
         <li><a href="#">Support</a></li>
-        <li><a href="#">Subscriptions</a></li>
+        <li><a href="../Subscription/Subscription.html">Subscriptions</a></li>
       </ul>
       <div class="icons">
         <button class="icon-btn"><i class="fas fa-search"></i></button>
@@ -31,254 +34,286 @@
     </nav>
     <!-- End Navbar -->
     <div class="contener">
-     <!-- Support Section -->
-        <div class="support-container">
-            <div class="greating-Side">
-                <h1>Welcome to our support page!</h1>
-                <p>We're here to help you with any problems you may be having with our product.</p>
-                <div class="image">
-                    <img src="./Sub Container (1).svg" alt="Support Image">
+      <!-- Support Section -->
+      <div class="support-container">
+        <div class="greating-Side">
+          <h1>Welcome to our support page!</h1>
+          <p>
+            We're here to help you with any problems you may be having with our
+            product.
+          </p>
+          <div class="image">
+            <img src="./Images/Sub Container.png" alt="Support Image" />
+          </div>
+        </div>
+        <div class="form-Side">
+          <form action="#" method="post">
+            <div class="name-Email-contener">
+              <div class="formGroup">
+                <label for="first-name">First Name:</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  placeholder="Enter First Name"
+                  required
+                />
+              </div>
+              <div class="formGroup">
+                <label for="last-name">Last Name:</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  placeholder="Enter Last Name"
+                  required
+                />
+              </div>
+              <div class="formGroup">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your Email"
+                  required
+                />
+              </div>
+              <div class="formGroup">
+                <label for="phone">Phone Number:</label>
+                <div class="phoneContener">
+                  <select class="country-select">
+                    <option value="us">&#127482;&#127480;</option>
+                    <option value="de">&#127465;&#127466;</option>
+                    <option value="eg">&#127466;&#127468;</option>
+                    <option value="sd">&#127480;&#127468;</option>
+                  </select>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter Phone Number"
+                    required
+                  />
                 </div>
+              </div>
             </div>
-            <div class="form-Side">
-                <form action="#" method="post">
-                 <div class="name-Email-contener">
-                    <div class="formGroup">
-                    <label for="first-name">First Name:</label>
-                    <input type="text" id="first-name" name="first-name" placeholder="Enter First Name" required>
-                    </div>
-                    <div class="formGroup">
-                    <label for="last-name">Last Name:</label>
-                    <input type="text" id="last-name" name="last-name" placeholder="Enter Last Name" required>
-                    </div>
-                    <div class="formGroup">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your Email" required>
-                    </div>
-                    <div class="formGroup">
-                    
-                    <label for="phone">Phone Number:</label>
-                    <div class="phoneContener">
-                    <select class="country-select">
-                         <option value="us">&#127482;&#127480; </option>
-                         <option value="de">&#127465;&#127466; </option>
-                         <option value="eg">&#127466;&#127468; </option>
-                         <option value="sd">&#127480;&#127468; </option>
-                    </select>
-                    <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
-                     </div>
-                   </div>
-                 </div>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" placeholder="Enter your Message" required></textarea>
-                    
-                    <div class="cheack-button-contener">
-                    <div class="checkbox-container">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Enter your Message"
+              required
+            ></textarea>
 
-                        <input type="checkbox"  required>
-                        <label for="terms">I agree with Terms of Use and Privacy Policy</label>
-                    </div>
-                    <button type="submit">Send Message</button>
-                    </div>
-
-                    
-                </form>
+            <div class="cheack-button-contener">
+              <div class="checkbox-container">
+                <input type="checkbox" required />
+                <label for="terms"
+                  >I agree with Terms of Use and Privacy Policy</label
+                >
+              </div>
+              <button type="submit">Send Message</button>
             </div>
+          </form>
         </div>
-    <!-- End Support Section -->
-     <!-- FAQ section -->
+      </div>
+      <!-- End Support Section -->
+      <!-- FAQ section -->
       <div class="FAQ-Contener">
-    <div class="head">
-      <div class="FAQ-Title">
-        <h1>Frequently Asked Questions</h1>
-        <p>Got questions? We've got answers! Check out our FAQ section to find answers to the most common questions about StreamVibe.</p>
+        <div class="head">
+          <div class="FAQ-Title">
+            <h1>Frequently Asked Questions</h1>
+            <p>
+              Got questions? We've got answers! Check out our FAQ section to
+              find answers to the most common questions about StreamVibe.
+            </p>
+          </div>
+          <div class="TBtn">
+            <button class="Qbtn">Ask a Question</button>
+          </div>
+        </div>
+
+        <div class="FAQ-Content">
+          <div class="FAQ-Item">
+            <div class="row">
+              <div class="text">
+                <span class="num">01</span>
+                <h2 class="q">What is StreamVibe?</h2>
+              </div>
+              <button class="btn">+</button>
+            </div>
+            <p class="a">
+              StreamVibe is a streaming service that allows you to watch movies
+              and shows on demand.
+            </p>
+          </div>
+
+          <div class="FAQ-Item">
+            <div class="row">
+              <div class="text">
+                <span class="num">02</span>
+                <h2 class="q">How does the subscription work?</h2>
+              </div>
+              <button class="btn">+</button>
+            </div>
+            <p class="a">
+              You choose a monthly or yearly plan and get instant access to all
+              content.
+            </p>
+          </div>
+
+          <div class="FAQ-Item">
+            <div class="row">
+              <div class="text">
+                <span class="num">03</span>
+                <h2 class="q">Can I cancel anytime?</h2>
+              </div>
+              <button class="btn">+</button>
+            </div>
+            <p class="a">
+              Yes, you can cancel your subscription at any time without penalty.
+            </p>
+          </div>
+
+          <div class="FAQ-Item">
+            <div class="row">
+              <div class="text">
+                <span class="num">04</span>
+                <h2 class="q">Do you offer a free trial?</h2>
+              </div>
+              <button class="btn">+</button>
+            </div>
+            <p class="a">Yes! We offer a 7-day free trial for all new users.</p>
+          </div>
+          <div class="FAQ-Item">
+            <div class="row">
+              <div class="text">
+                <span class="num">05</span>
+                <h2 class="q">What devices are supported?</h2>
+              </div>
+              <button class="btn">+</button>
+            </div>
+            <p class="a">
+              StreamVibe works on smartphones, tablets, smart TVs, and
+              computers.
+            </p>
+          </div>
+          <div class="FAQ-Item">
+            <div class="row">
+              <div class="text">
+                <span class="num">06</span>
+                <h2 class="q">Is there a limit on simultaneous streams?</h2>
+              </div>
+              <button class="btn">+</button>
+            </div>
+            <p class="a">
+              You can stream on up to 4 devices simultaneously with our premium
+              plan.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="TBtn">
-        <button class="Qbtn">Ask a Question</button>
+
+      <!-- End FAQ section -->
+
+      <!-- Start Footer -->
+      <div class="trial-box">
+        <div class="content">
+          <div class="text">
+            <h2>Start your free trial today!</h2>
+            <p>
+              This is a clear and concise call to action that encourages users
+              to sign up for a free trial of StreamVibe.
+            </p>
+          </div>
+          <button class="sButton">Start a Free Trial</button>
+        </div>
       </div>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h4>Home</h4>
+            <ul>
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">Devices</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Movies</h4>
+            <ul>
+              <li><a href="#">Genres</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">New Release</a></li>
+              <li><a href="#">Popular</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Shows</h4>
+            <ul>
+              <li><a href="#">Genres</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">New Release</a></li>
+              <li><a href="#">Popular</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Subscription</h4>
+            <ul>
+              <li><a href="#">Plans</a></li>
+              <li><a href="#">Features</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section social">
+            <h4>Connect With Us</h4>
+            <div class="social-icons">
+              <a href="#"
+                ><img
+                  src="Images/icons/social-facebook-circular.svg"
+                  alt="Facebook"
+                  style="width: 40px"
+              /></a>
+              <a href="#"
+                ><img
+                  src="Images/icons/icons8-x.svg"
+                  alt="Twitter"
+                  style="width: 40px"
+              /></a>
+              <a href="#"
+                ><img
+                  src="Images/icons/linkedin-circle.svg"
+                  alt="LinkedIn"
+                  style="width: 40px"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2023 streamwib, All Rights Reserved</p>
+          <div class="footer-links">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
     </div>
-
-    <div class="FAQ-Content">
-      <div class="FAQ-Item">
-        <div class="row">
-          <div class="text">
-            <span class="num">01</span>
-            <h2 class="q">What is StreamVibe?</h2>
-          </div>
-          <button class="btn">+</button>
-        </div>
-        <p class="a">StreamVibe is a streaming service that allows you to watch movies and shows on demand.</p>
-      </div>
-
-      <div class="FAQ-Item">
-        <div class="row">
-          <div class="text">
-            <span class="num">02</span>
-            <h2 class="q">How does the subscription work?</h2>
-          </div>
-          <button class="btn">+</button>
-        </div>
-        <p class="a">You choose a monthly or yearly plan and get instant access to all content.</p>
-      </div>
-
-      <div class="FAQ-Item">
-        <div class="row">
-          <div class="text">
-            <span class="num">03</span>
-            <h2 class="q">Can I cancel anytime?</h2>
-          </div>
-          <button class="btn">+</button>
-        </div>
-        <p class="a">Yes, you can cancel your subscription at any time without penalty.</p>
-      </div>
-
-      <div class="FAQ-Item">
-        <div class="row">
-          <div class="text">
-            <span class="num">04</span>
-            <h2 class="q">Do you offer a free trial?</h2>
-          </div>
-          <button class="btn">+</button>
-        </div>
-        <p class="a">Yes! We offer a 7-day free trial for all new users.</p>
-      </div>
-      <div class="FAQ-Item">
-        <div class="row">
-          <div class="text">
-            <span class="num">05</span>
-            <h2 class="q">What devices are supported?</h2>
-          </div>
-          <button class="btn">+</button>
-        </div>
-        <p class="a">StreamVibe works on smartphones, tablets, smart TVs, and computers.</p>
-      </div>
-      <div class="FAQ-Item">
-        <div class="row">
-          <div class="text">
-            <span class="num">06</span>
-            <h2 class="q">Is there a limit on simultaneous streams?</h2>
-          </div>
-          <button class="btn">+</button>
-        </div>
-        <p class="a">You can stream on up to 4 devices simultaneously with our premium plan.</p>
-      </div>
-    </div>
-  </div>
-  
-    <!-- End FAQ section -->
-
-    <!-- Start Footer -->
-    <div class="FContainer">
-      <h2 class="BigText">Start your free trial today!</h2>
-      <p class="TextContent">
-        This is a clear and concise call to action that encourages users to sign
-        up for a free trial of Streamvibe.
-      </p>
-      <button class="Button1">Start a Free Trial</button>
-    </div>
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-section">
-          <h4>Home</h4>
-          <ul>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Devices</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">FAQ</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h4>Movies</h4>
-          <ul>
-            <li><a href="#">Genres</a></li>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">New Release</a></li>
-            <li><a href="#">Popular</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h4>Shows</h4>
-          <ul>
-            <li><a href="#">Genres</a></li>
-            <li><a href="#">Trending</a></li>
-            <li><a href="#">New Release</a></li>
-            <li><a href="#">Popular</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h4>Support</h4>
-          <ul>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h4>Subscription</h4>
-          <ul>
-            <li><a href="#">Plans</a></li>
-            <li><a href="#">Features</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section social">
-          <h4>Connect With Us</h4>
-          <div class="social-icons">
-            <a href="#"
-              ><img
-                src="Images/icons/social-facebook-circular.svg"
-                alt="Facebook"
-                style="width: 40px"
-            /></a>
-            <a href="#"
-              ><img
-                src="Images/icons/icons8-x.svg"
-                alt="Twitter"
-                style="width: 40px"
-            /></a>
-            <a href="#"
-              ><img
-                src="Images/icons/linkedin-circle.svg"
-                alt="LinkedIn"
-                style="width: 40px"
-            /></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; 2023 streamwib, All Rights Reserved</p>
-        <div class="footer-links">
-          <a href="#">Terms of Use</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Cookie Policy</a>
-        </div>
-      </div>
-    </footer>
-    <!-- End Footer -->
-    
-</div>
-  <script>
-     const faqItems = document.querySelectorAll(".FAQ-Item");
-
-    faqItems.forEach((item) => {
-      const button = item.querySelector(".btn");
-
-      button.addEventListener("click", () => {
-        faqItems.forEach((otherItem) => {
-          const otherButton = otherItem.querySelector(".btn");
-          if (otherItem !== item) {
-            otherItem.classList.remove("active");
-            otherButton.textContent = "+";
-          }
-        });
-
-        item.classList.toggle("active");
-        button.textContent = item.classList.contains("active") ? "−" : "+";
-      });
-    });
-  </script>
-</body>
+    <script src="JS/script.js"></script>
+  </body>
 </html>

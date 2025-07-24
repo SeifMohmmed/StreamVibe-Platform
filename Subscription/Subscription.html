@@ -8,12 +8,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="subscription.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
     <nav class="navbar">
       <div class="logo">
-        <img src="Images/Vector.svg" alt="Logo" />
+        <img src="../Home/assets/icons/Vector.svg" alt="Logo" />
         StreamVibe
       </div>
 
@@ -24,10 +24,10 @@
 
       <!-- اللينكات -->
       <ul class="nav-links" id="nav-links">
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="#">Movies & Shows</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="subscription.html">Subscriptions</a></li>
+        <li><a href="../Home/index.html">Home</a></li>
+        <li><a href="../MoviesAndShows/movies.html">Movies & Shows</a></li>
+        <li><a href="../Support/Support.html">Support</a></li>
+        <li><a href="Subscription.html">Subscriptions</a></li>
       </ul>
 
       <!-- الأيقونات -->
@@ -149,13 +149,17 @@
       </table>
     </section>
 
-    <div class="Container">
-      <h2 class="BigText">Start your free trial today!</h2>
-      <p class="TextContent">
-        This is a clear and concise call to action that encourages users to sign
-        up for a free trial of Streamvibe.
-      </p>
-      <button class="Button1">Start a Free Trial</button>
+    <div class="trial-box">
+      <div class="content">
+        <div class="text">
+          <h2>Start your free trial today!</h2>
+          <p>
+            This is a clear and concise call to action that encourages users to
+            sign up for a free trial of StreamVibe.
+          </p>
+        </div>
+        <button class="sButton">Start a Free Trial</button>
+      </div>
     </div>
     <footer class="footer">
       <div class="footer-container">
@@ -209,16 +213,19 @@
           <div class="social-icons">
             <a href="#"
               ><img
-                src="Images/social-facebook-circular.svg"
+                src="./Images/icons/social-facebook-circular.svg"
                 alt="Facebook"
                 style="width: 40px"
             /></a>
             <a href="#"
-              ><img src="Images/icons8-x.svg" alt="Twitter" style="width: 40px"
+              ><img
+                src="./Images/icons/icons8-x.svg"
+                alt="Twitter"
+                style="width: 40px"
             /></a>
             <a href="#"
               ><img
-                src="Images/linkedin-circle.svg"
+                src="./Images/icons/linkedin-circle.svg"
                 alt="LinkedIn"
                 style="width: 40px"
             /></a>
@@ -236,7 +243,6 @@
       </div>
     </footer>
 
-
-    <script src="script.js"></script>
+    <script src="./JS/script.js"></script>
   </body>
 </html>
