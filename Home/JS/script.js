@@ -1,3 +1,12 @@
+/* code for menu in Nav bar*/
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+/*------------------------------------*/
  const faqItems = document.querySelectorAll(".FAQ-Item");
 
     faqItems.forEach((item) => {
