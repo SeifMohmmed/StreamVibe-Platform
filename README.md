@@ -11,9 +11,9 @@ Our workflow included:
  - **[UI/UX Design Selection](https://www.figma.com/design/MBifM9wN0ZgsSR2goO6QNv/OTT-Dark-Theme-Website-UI-Design-Template-for-Media-Streaming--Movies-and-TV---FREE-Editable----Community-?node-id=34-3&p=f&t=6GfoJa1fccCgFWlp-0)**  
     - **Researched and selected a modern, intuitive design to ensure a seamless user experience.**
 
-- **Step-by-Step Implementation**  
-  - **Phase 1:** Implemented the design using **Vanilla JavaScript** to understand core DOM manipulation and web fundamentals.  
-  - **Phase 2:** Rebuilt and enhanced the project using **ReactJS**, improving scalability, performance, and code maintainability.  
+- **Step-by-Step Implementation**
+  - **[Phase 1](https://github.com/SeifMohmmed/StreamVibe-Platform):** Implemented the design using **Vanilla JavaScript** to understand core DOM manipulation and web fundamentals.  
+  - **[Phase 2](https://github.com/Mohaned347/the-final-project-of-the-iti--react-part.git):** Rebuilt and enhanced the project using **ReactJS**, improving scalability, performance, and code maintainability.  
 
 This approach helped us gain hands-on experience with both **traditional JavaScript** and **modern front-end frameworks**.  
 
